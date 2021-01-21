@@ -1,0 +1,87 @@
+#paginationWrapper
+{
+    margin-top:10px;
+}
+
+.pagination
+{
+    display: inline-block;
+    padding-left: 0;
+    margin: 0px 0;
+}
+
+.nav-footer
+{
+    border-top:1px solid #cccccc;
+}
+
+.imgpos
+{
+    position:absolute;
+    top:10px;
+    left:90px;
+}
+
+.printBtn
+{
+    margin-bottom:5px;
+}
+
+.table-padd
+{
+    margin-top: 5px;
+    font-weight:bold;
+}
+
+#featuredImg { height:300px;}
+
+.thumb-changer img { height:100px;}
+
+
+.Redcircle {
+    width: 12px;
+    height: 12px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.Greencircle {
+    width: 12px;
+    height: 12px;
+    background: green;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.color-box {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.color-box.active, .color-box:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.top-info a
+{
+    font-size:20px;
+}
+
+.statusText
+{
+    font-size:20px;
+    text-align: center;
+}
