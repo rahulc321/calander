@@ -1,1 +1,0 @@
-<?php echo $data->appends(Input::except('page'))->render(); ?>
